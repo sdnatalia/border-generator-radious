@@ -110,7 +110,7 @@ button, input, optgroup, select, textarea {
     margin: 0;
 }
 
-#r-t-iz{
+.inputNumber{
     margin-bottom: 15px;
     width: 60px;    
     font-size: 18px;
@@ -131,6 +131,10 @@ label{
 
 .slidecontainer {
     width: 100%; /* Width of the outside container */
+  }
+  #slideBorder{
+      display: grid;
+      grid-template-rows: auto, auto;
   }
  
   .slider {
@@ -161,8 +165,9 @@ label{
     cursor: pointer;
     -webkit-transition: .2s;
     transition: opacity .2s;
+
   }
-  
+
   input#borderRadiusAllTheSame {
     width: 20px !important;
     margin: 0 !important;
